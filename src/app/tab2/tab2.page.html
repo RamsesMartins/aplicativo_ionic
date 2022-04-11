@@ -8,11 +8,11 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" id="CONTENT_POSTAR">
-  <table id="table_PRINCIPAL">
+  <table id="table_PRINCIPAL" cellspacing="2">
     <tbody id="tbody_PRINCIPAL">
       <!-- LABEL DE TEXTO -->
-      <tr id="tr_1">
-        <td>
+      <tr id="tr_1" colspan="2">
+        <td colspan="2">
           <ion-label for="post_TEXT" id="post_LABEL1">Escreva aqui:</ion-label>
         </td>
 
@@ -37,8 +37,8 @@
               </ion-buttons>
           </td>
           <td style="text-align: end;">
-            <ion-buttons>
-                <ion-button style="padding-left: 45%;">
+            <ion-buttons style="display: block;">
+                <ion-button>
                  Publicar
                  <ion-icon slot="start" name="send">Enviar</ion-icon>
                 </ion-button>
