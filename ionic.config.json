@@ -1,0 +1,7 @@
+{
+  "name": "priemiroapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
