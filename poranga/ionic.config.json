@@ -1,0 +1,7 @@
+{
+  "name": "poranga",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
