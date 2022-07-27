@@ -12,12 +12,13 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'search',
-    loadChildren: () => import('./search/search.module').then( m => m.SearchPageModule)
-  },  {
     path: 'post',
     loadChildren: () => import('./post/post.module').then( m => m.PostPageModule)
+  },  {
+    path: 'camera',
+    loadChildren: () => import('./camera/camera.module').then( m => m.CameraPageModule)
   },
+
 
 ];
 

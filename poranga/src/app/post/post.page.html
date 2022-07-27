@@ -1,16 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>post</ion-title>
+    <ion-title>Postar</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
  <ion-toolbar>
-  <textarea name="" id="" cols="30" rows="10"></textarea>
+  <ion-item>
+    <ion-label position="floating">Fale sobre algo</ion-label>
+    <ion-textarea rows="5" cols="20"></ion-textarea>
+  </ion-item>
+  <ion-fab>
+    <ion-button horizontal="end">
+      <ion-icon name="arrow-redo-outline"></ion-icon>
+    </ion-button>
+  </ion-fab>
  </ion-toolbar>
 
  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-  <ion-fab-button href="home">
+  <ion-fab-button routerLink="/home">
     <ion-icon name="arrow-undo-outline"></ion-icon>
   </ion-fab-button>
 </ion-fab>
